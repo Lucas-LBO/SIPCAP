@@ -1,0 +1,19 @@
+GERAÇÃO MANUAL DE RELATÓRIOS EXCEL - SIPCAP
+
+Objetivo: Gerar uma cópia estática dos resultados processados pelo SIPCAP para fins de auditoria, backup e compartilhamento.
+
+Passos:
+
+Abrir o VS Code na pasta do SIPCAP.
+Abrir um terminal.
+Executar: python run_sipcap.py
+
+Aguardar a conclusão do processamento.
+Verificar a geração dos arquivos:
+
+resultado_consolidado.xlsx
+recomendacoes.xlsx
+auditoria.xlsx
+
+Observação: A aplicação Streamlit (app.py) funciona inteiramente em memória e não depende desses arquivos para operação. Os arquivos Excel servem como exportação manual dos resultados do processamento.
+

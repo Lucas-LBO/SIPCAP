@@ -1,0 +1,6 @@
+Ctrl + Shift + P
+
+Python: Select Interpreter
+
+Python 3.13
+C:\Users\lucas.bezerra\AppData\Local\Programs\Python\Python313\python.exe
